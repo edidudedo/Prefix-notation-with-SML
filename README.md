@@ -14,9 +14,9 @@ prefix notation will follow this rule
 - &lt;FUNC&gt; ::= "(""fact"&lt;EXP&gt;")" | "(""fibo"&lt;EXP&gt;")"
 
 
-
 while infix notation will follow this rule
-- <EXP> ::= <TERM>{{"+"|"-"}<TERM>}*
-- <TERM> ::= <BASE>{{"*"|"/"}<BASE>}*
-- <BASE> ::= non-negative integer | "("<EXP>")" | <FUNC>
-- <FUNC> ::= "fact"<EXP> | "fibo"<EXP>
+- &lt;EXP&gt; ::= &lt;TERM&gt;{{"+"|"-"&lt;TERM&gt;}}*
+- &lt;TERM&gt; ::= &lt;BASE&gt;{{"*"|"/"}&lt;BASE&gt;}*
+- &lt;BASE&gt; ::= non-negative integer | "("&lt;EXP&gt;")" | &lt;FUNC&gt;
+- &lt;FUNC&gt; ::= "fact"&lt;EXP&gt; | "fibo"&lt;EXP&gt;
+
